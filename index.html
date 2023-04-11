@@ -1,0 +1,121 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site pessoal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function mostraAlerta() {
+            alert("Olá!Este é o site da Lilian");
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/03f7280425.js" crossorigin="anonymous"></script>
+    <!--function que muda o icone-->
+    <script>
+        function mudaIcone(icone) {
+            document.getElementById("image").src = icone;
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- TOP INICIO -->
+    <div class="topbar">
+        <header>
+            <nav>
+                <h2>Web<span>Designer</span></h2>
+                <ul>
+                    <li onmouseover="mudaIcone('assets/house-solid.svg')" onmouseout="mudaIcone('assets/rocket-solid.svg')">
+                        <a href="#">Home</a>
+                    </li>
+                    <li onmouseover="mudaIcone('assets/gear-solid.svg')" onmouseout="mudaIcone('assets/rocket-solid.svg')">
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li onmouseover="mudaIcone('assets/user-solid.svg')" onmouseout="mudaIcone('assets/rocket-solid.svg')">
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li onmouseover="mudaIcone('assets/phone-solid.svg')" onmouseout="mudaIcone('assets/rocket-solid.svg')">
+                        <a href="#">Contato</a>
+                    </li>
+                    <img src="assets/rocket-solid.svg" alt="" id="image">
+                </ul>
+            </nav>
+        </header>
+        <!-- BANNER INICIO -->
+        <div class="banner">
+            <div class="banner-contents">
+                <div>
+                    <h4>Olá, meu nome é </h4>
+                    <h1>Lilian<span>Soares</span></h1>
+                    <h3>Eu sou Web Desinger</h3>
+                </div>
+                <form>
+                    <input type="email" nome="email" id="mail" placeholder="Envie o seu email">
+                    <input type="submit" nome="submit" value="começar">
+                </form>
+            </div>
+        </div>
+        <!-- BANNER FIM -->
+    </div>
+    <!-- TOP FIM -->
+
+    <main>
+        <!-- SOBRE INICIO -->
+        <section class="sobre">
+            <div class="avatar">
+                <img src="assets/pexels-photo-1587009.webp" alt="">
+            </div>
+            <div class="texto">
+                <h2>Sobre</h2>
+                <h5>Web<span>Designer</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et odio sapiente ipsa error atque nostrum provident! Modi reprehenderit, deleniti temporibus vero repellat esse non excepturi accusamus fugit, iusto quae? Facere expedita
+                    libero fugiat consectetur assumenda nemo maiores vitae sed repudiandae itaque, sunt hic quia harum placeat quas aut voluptates pariatur, illum aliquid deserunt distinctio iusto, consequatur rem. Quo, corporis! Nihil alias, qui hic
+                    consectetur aperiam expedita incidunt exercitationem reprehenderit ullam eius dolorum ab suscipit aut quis ducimus provident iste, sit rerum sunt molestias laboriosam totam id vero. Expedita, enim!</p>
+                <button class="button">Vamos conversar!</button>
+
+            </div>
+        </section>
+        <!-- SOBRE FIM -->
+        <!-- SERVICOS INICIO -->
+        <section class="servicos">
+            <h2>Serviços</h2>
+            <div class="itens">
+                <div class="card">
+                    <h5>Desenvolvedor</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate, deserunt explicabo ipsum veniam mollitia amet minima nulla numquam expedita dolor voluptates a aut placeat animi asperiores voluptatum dolorem dolores.3</p>
+                    <button class="button">ler mais</button>
+                </div>
+                <div class="card">
+                    <h5>Desenvolvedor</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate, deserunt explicabo ipsum veniam mollitia amet minima nulla numquam expedita dolor voluptates a aut placeat animi asperiores voluptatum dolorem dolores.3</p>
+                    <button class="button">ler mais</button>
+                </div>
+                <div class="card">
+                    <h5>Desenvolvedor</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate, deserunt explicabo ipsum veniam mollitia amet minima nulla numquam expedita dolor voluptates a aut placeat animi asperiores voluptatum dolorem dolores.3</p>
+                    <button class="button">ler mais</button>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICOS FIM -->
+    </main>
+    <footer>
+        <h6>Siga nas Redes Sociais</h6>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+        </div>
+        <div class="end">
+            <p>&copy;2023. Lilian Soares. Todos os direitos reservados.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
